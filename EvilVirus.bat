@@ -7,7 +7,7 @@ IF ERRORLEVEL 2 GOTO :end
 
 IF ERRORLEVEL 1 GOTO ok
 :ok
-choice /C YN /M "I agree that the creator is not responsible for any damage the malware inflicts upon my pc?"
+choice /C YN /M "I agree that the creator is not responsible for any damage the malware will inflict upon my pc?"
 
 IF ERRORLEVEL 2 GOTO end
 
@@ -19,3 +19,4 @@ exit
 
 :start
 msg user Installing Linux this might take a few minutes...
+
